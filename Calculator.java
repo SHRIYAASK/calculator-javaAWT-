@@ -303,4 +303,10 @@ public class Calculator extends Frame implements ActionListener{
             }
         }
     }
+        public static void main(String[] var0) {
+      Calculator var1 = new Calculator();
+      var1.setSize(240, 400);
+      var1.setVisible(true);
+      var1.setTitle("Calculator");
+   }
 }
